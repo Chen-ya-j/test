@@ -1,0 +1,4 @@
+SELECT job,COUNT(*)
+FROM emp
+WHERE sal>15000
+GROUP BY job;
